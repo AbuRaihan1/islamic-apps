@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.heading{
+  
+  text-align: center;
+  color:#ff5200;
+  padding: 10px 0px;
+}
+
+.sura{
+  text-align: center;
+}
+.sura ul{
+ list-style-type: none;
+ text-align: center;
+ 
+}
+.sura li{
+ list-style-type: none;
+ text-align: center;
+ background-color: white;
+ box-shadow: 0px 0px 4px black;
+ padding: 10px 0px;
+ width: 95%;
+ margin: 15px;
+ border-radius: 5px;
+ transition: .5s;
+}
+
+.sura li:hover{
+  background-color: rgb(8, 248, 156);
+  color: white !important;
+} 
+.sura a {
+ text-decoration: none;
+ color: rgb(3, 33, 63);
+ font-weight: bold;
+}
